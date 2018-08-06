@@ -1,8 +1,18 @@
-guest_name = "Maeve"
-party_name = "Met Gala"
-date = "May 7th"
-time = "7 pm"
-host_name = "The Metropolitan Museum of Art"
+
+puts "Hi, you've been invited to a party! What is your name?"
+guest_name = gets.chomp
+
+puts "What is the name of your party?"
+party_name = gets.chomp
+
+puts "What date is your party on?"
+date = gets.chomp
+
+puts "What time is your party at?"
+time = gets.chomp
+
+puts "What is the host's name?"
+host_name = gets.chomp
 
 puts "Dear #{guest_name},"
 puts " "
