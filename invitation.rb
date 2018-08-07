@@ -14,10 +14,11 @@ time = gets.chomp
 puts "What is the host's name?"
 host_name = gets.chomp
 
-puts "Dear #{guest_name},"
-puts " "
-puts "You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than January 30."
-puts " "
-puts "Sincerely,"
-puts " #{host_name}"
+puts "Dear #{guest_name},
+
+You are cordially invited to the #{party_name} on #{date} at #{time}. Please RSVP no later than January 30.
+
+Sincerely,
+
+#{host_name}"
 
